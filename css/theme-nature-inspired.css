@@ -1,0 +1,48 @@
+/* Nature Inspired Theme */
+.bio-card {
+    background: #fff url('https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=400&q=80') no-repeat;
+    background-size: 100% 200px;
+    padding: 0;
+    color: #2c392a;
+}
+
+.profile-section {
+    margin-top: 150px;
+    background: white;
+    padding: 2rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-top: -70px;
+    width: 140px;
+    height: 140px;
+}
+
+.social-links {
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.social-links a {
+    color: #4a6741;
+    background: #f0f7ed;
+    padding: 0.75rem;
+    border-radius: 50%;
+}
+
+.link-card {
+    background: #f0f7ed;
+    padding: 1rem;
+    border-radius: 10px;
+    color: #2c392a;
+    margin: 0 2rem;
+}
+
+.link-card:hover {
+    background: #e1eedd;
+}

@@ -1,0 +1,44 @@
+/* Minimal Dark Theme */
+body {
+    background-color: #000;
+}
+
+.bio-card {
+    background-color: #111;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+.profile-img {
+    border: 2px solid #fff;
+}
+
+.tagline {
+    color: #888;
+}
+
+.social-links a {
+    color: #fff;
+}
+
+.social-links a:hover {
+    background-color: #222;
+}
+
+.link-card {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    color: #fff;
+}
+
+.link-card:hover {
+    background-color: #222;
+}
+
+.footer {
+    border-top: 1px solid #333;
+}
+
+.footer-link {
+    color: #888;
+}

@@ -1,0 +1,42 @@
+/* Gradient Pop Theme */
+.bio-card {
+    background: linear-gradient(135deg, #6366f1, #ec4899);
+    padding: 2rem;
+    color: white;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding-top: 2rem;
+}
+
+.profile-img {
+    border-radius: 20px;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 1.5rem;
+}
+
+.social-links {
+    justify-content: center;
+    margin: 2rem 0;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.link-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 12px;
+    color: white;
+    backdrop-filter: blur(5px);
+}
+
+.link-card:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}

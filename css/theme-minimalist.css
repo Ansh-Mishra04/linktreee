@@ -1,0 +1,44 @@
+/* Minimalist Theme */
+.bio-card {
+    background: #fff;
+    padding: 3rem 2rem;
+}
+
+.profile-section {
+    margin-bottom: 4rem;
+}
+
+.profile-img {
+    border-radius: 0;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.social-links {
+    justify-content: flex-start;
+    margin: 3rem 0;
+}
+
+.social-links a {
+    color: #000;
+    padding: 0.5rem;
+}
+
+.link-card {
+    padding: 1rem 0;
+    color: #000;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.link-card:hover {
+    background: #f8f8f8;
+}

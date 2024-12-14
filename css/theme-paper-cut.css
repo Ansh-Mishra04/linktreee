@@ -1,0 +1,51 @@
+/* Paper Cut Theme */
+.bio-card {
+    background: #fff;
+    box-shadow: 
+        0 1px 1px rgba(0,0,0,0.12),
+        0 2px 2px rgba(0,0,0,0.12),
+        0 4px 4px rgba(0,0,0,0.12),
+        0 8px 8px rgba(0,0,0,0.12);
+    position: relative;
+}
+
+.profile-section {
+    position: relative;
+    padding: 2rem;
+    background: #f8f8f8;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.profile-img {
+    border: none;
+    box-shadow: 
+        0 1px 1px rgba(0,0,0,0.11),
+        0 2px 2px rgba(0,0,0,0.11),
+        0 4px 4px rgba(0,0,0,0.11);
+    transform: rotate(-3deg);
+}
+
+.social-links {
+    transform: rotate(2deg);
+    background: #f0f0f0;
+    padding: 1rem;
+    margin: 2rem -1rem;
+}
+
+.link-card {
+    background: #fff;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 
+        0 1px 1px rgba(0,0,0,0.08),
+        0 2px 2px rgba(0,0,0,0.08);
+    transform: rotate(-1deg);
+}
+
+.link-card:nth-child(even) {
+    transform: rotate(1deg);
+}
+
+.link-card:hover {
+    transform: rotate(0) scale(1.02);
+}

@@ -1,0 +1,50 @@
+/* Neon Theme */
+body {
+    background-color: #0a0a0a;
+}
+
+.bio-card {
+    background-color: #111111;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(80, 200, 255, 0.3);
+}
+
+.profile-img {
+    border: 4px solid #50c8ff;
+    box-shadow: 0 0 15px rgba(80, 200, 255, 0.5);
+}
+
+h1 {
+    color: #50c8ff;
+    text-shadow: 0 0 10px rgba(80, 200, 255, 0.5);
+}
+
+.tagline {
+    color: #ff50c8;
+}
+
+.social-links a {
+    color: #50c8ff;
+    text-shadow: 0 0 10px rgba(80, 200, 255, 0.5);
+}
+
+.social-links a:hover {
+    color: #ff50c8;
+    text-shadow: 0 0 15px rgba(255, 80, 200, 0.7);
+}
+
+.link-card {
+    background-color: #1a1a1a;
+    border: 1px solid #50c8ff;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(80, 200, 255, 0.2);
+}
+
+.link-card:hover {
+    background-color: #222;
+    box-shadow: 0 0 15px rgba(80, 200, 255, 0.4);
+}
+
+.footer-link {
+    color: #50c8ff;
+}

@@ -1,0 +1,49 @@
+/* Artistic Theme */
+.bio-card {
+    background: #fff;
+    padding: 0;
+}
+
+.profile-section {
+    position: relative;
+    padding-top: 250px;
+    background: url('https://images.unsplash.com/photo-1550684376-efcbd6e3f031?auto=format&fit=crop&w=400&q=80') no-repeat center top;
+    background-size: contain;
+}
+
+.profile-content {
+    background: #fff;
+    padding: 2rem;
+    margin-top: -50px;
+    border-top-left-radius: 50px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-top: -100px;
+    position: relative;
+    z-index: 2;
+}
+
+.social-links {
+    justify-content: space-around;
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #f8f8f8;
+    border-radius: 25px;
+}
+
+.link-card {
+    background: #fff;
+    padding: 1rem;
+    margin: 0 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    color: #333;
+}
+
+.link-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}

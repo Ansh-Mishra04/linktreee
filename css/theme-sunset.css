@@ -1,0 +1,45 @@
+/* Sunset Theme */
+body {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+.bio-card {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: #2c1810;
+}
+
+.profile-img {
+    border: 4px solid #ff7e5f;
+}
+
+.tagline {
+    color: #d35400;
+}
+
+.social-links a {
+    color: #ff7e5f;
+}
+
+.social-links a:hover {
+    background-color: #fff5f2;
+}
+
+.link-card {
+    background-color: #fff;
+    border: 1px solid #ffded4;
+    color: #2c1810;
+}
+
+.link-card:hover {
+    background-color: #fff5f2;
+    border-color: #ff7e5f;
+}
+
+.footer {
+    border-top: 1px solid #ffded4;
+}
+
+.footer-link {
+    color: #ff7e5f;
+}
