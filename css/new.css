@@ -1,0 +1,120 @@
+/* 5. PUBG Theme - Tactical and intense */
+.bio-card {
+    background: #1a1a1a;
+    border: none;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .bio-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80');
+    background-size: cover;
+    opacity: 0.7;
+    
+  }
+  
+  .profile-section {
+    position: relative;
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), transparent);
+  }
+  
+  .profile-img {
+    border: 3px solid #fbbf24;
+    box-shadow: 0 0 20px rgba(251, 191, 36, 0.3);
+  }
+  
+  .profile-section h1 {
+    color: #fbbf24;
+    font-family: 'Black Ops One', cursive;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .tagline {
+    color: #d4d4d4;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background: rgba(251, 191, 36, 0.1);
+    margin: 1rem -2rem;
+    position: relative;
+  }
+  
+  .social-links::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #fbbf24, transparent);
+  }
+  
+  .social-links a {
+    color: #fbbf24;
+    font-size: 1.4rem;
+    transition: all 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #f59e0b;
+    transform: scale(1.2);
+    text-shadow: 0 0 10px rgba(251, 191, 36, 0.5);
+  }
+  
+  .about-section {
+    color: #d4d4d4;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background: rgba(251, 191, 36, 0.1);
+    border-radius: 8px;
+    border: 1px solid #fbbf24;
+    position: relative;
+  }
+  
+  .about-section::before {
+    content: '🎯';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0.3;
+  }
+  
+  .link-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0 1.5rem;
+  }
+  
+  .link-card {
+    background: rgba(251, 191, 36, 0.1);
+    border: 1px solid #fbbf24;
+    color: #fbbf24;
+    border-radius: 4px;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .link-card:hover {
+    background: #fbbf24;
+    color: #1a1a1a;
+    transform: translateX(5px);
+    box-shadow: 0 0 20px rgba(251, 191, 36, 0.3);
+  }

@@ -1,0 +1,119 @@
+/* 4. Gamer Theme - Dynamic and energetic */
+.bio-card {
+    background: #0f172a;
+    border: 2px solid #6366f1;
+    box-shadow: 0 0 30px rgba(99, 102, 241, 0.3);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .bio-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&q=80');
+    background-size: cover;
+    opacity:0.5;
+    /* animation: pulse 2s infinite; */
+  }
+  
+  @keyframes pulse {
+    0% { opacity: 0.05; }
+    50% { opacity: 0.1; }
+    100% { opacity: 0.05; }
+  }
+  
+  .profile-section {
+    position: relative;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 2px solid #6366f1;
+  }
+  
+  .profile-img {
+    border: 3px solid #6366f1;
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.5);
+    transition: all 0.3s;
+  }
+  
+  .profile-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(99, 102, 241, 0.8);
+  }
+  
+  .profile-section h1 {
+    color: #6366f1;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    text-shadow: 0 0 10px rgba(99, 102, 241, 0.5);
+  }
+  
+  .tagline {
+    color: #94a3b8;
+  }
+  
+  .social-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1.5rem;
+    background: rgba(99, 102, 241, 0.1);
+    margin: 1rem -2rem;
+    position: relative;
+  }
+  
+  .social-links a {
+    color: #6366f1;
+    font-size: 1.4rem;
+    transition: all 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #818cf8;
+    transform: scale(1.2);
+    text-shadow: 0 0 10px rgba(99, 102, 241, 0.8);
+  }
+  
+  .about-section {
+    color: #94a3b8;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background: rgba(99, 102, 241, 0.1);
+    border-radius: 8px;
+    border: 1px solid #6366f1;
+  }
+  
+  .link-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0 1.5rem;
+  }
+  
+  .link-card {
+    background: rgba(99, 102, 241, 0.1);
+    border: 1px solid #6366f1;
+    color: #6366f1;
+    border-radius: 8px;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .link-card::after {
+    content: '🎮';
+    position: absolute;
+    right: 10px;
+    opacity: 0.2;
+  }
+  
+  .link-card:hover {
+    background: #6366f1;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+  }

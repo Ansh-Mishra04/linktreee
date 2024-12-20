@@ -1,0 +1,92 @@
+/* Cyberpunk Theme - Futuristic and edgy */
+.bio-card {
+    background: #0a0a16;
+    border: 2px solid #ff00ff;
+    box-shadow: 0 0 30px rgba(255, 0, 255, 0.3);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .bio-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(
+      60deg,
+      transparent,
+      rgba(255, 0, 255, 0.1),
+      transparent
+    );
+    animation: glitch 3s linear infinite;
+  }
+  
+  @keyframes glitch {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(100%); }
+  }
+  
+  .profile-section {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2rem;
+    border-bottom: 2px solid #00ffff;
+  }
+  
+  .profile-img {
+    border: 3px solid #00ffff;
+    clip-path: polygon(20% 0%, 100% 0, 100% 80%, 80% 100%, 0 100%, 0% 20%);
+  }
+  
+  .profile-section h1 {
+    color: #00ffff;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px #ff00ff;
+  }
+  
+  .tagline {
+    color: #ff00ff;
+    font-family: 'Share Tech Mono', monospace;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: rgba(0, 255, 255, 0.1);
+  }
+  
+  .social-links a {
+    color: #00ffff;
+    font-size: 1.5rem;
+    transition: all 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #ff00ff;
+    transform: scale(1.2);
+    text-shadow: 0 0 10px #ff00ff;
+  }
+  
+  .link-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .link-card {
+    background: rgba(0, 255, 255, 0.1);
+    border: 1px solid #00ffff;
+    color: #00ffff;
+    transition: all 0.3s;
+  }
+  
+  .link-card:hover {
+    background: rgba(255, 0, 255, 0.2);
+    border-color: #ff00ff;
+    transform: translateY(-5px);
+  }

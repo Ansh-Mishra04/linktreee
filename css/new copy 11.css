@@ -1,0 +1,100 @@
+/* Coder Theme - Matrix-inspired */
+.bio-card {
+    background: #0C0C0C;
+    border: 1px solid #00FF41;
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.2);
+    font-family: 'Courier New', monospace;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .bio-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      rgba(0, 255, 65, 0.05) 50%,
+      transparent 50%
+    );
+    background-size: 100% 4px;
+    pointer-events: none;
+  }
+  
+  .profile-section {
+    border-bottom: 1px solid #00FF41;
+    padding-bottom: 2rem;
+  }
+  
+  .profile-img {
+    border: 2px solid #00FF41;
+    filter: grayscale(100%) brightness(90%) sepia(100%) hue-rotate(70deg);
+  }
+  
+  .profile-section h1 {
+    color: #00FF41;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+  
+  .tagline {
+    color: #00FF41;
+    opacity: 0.8;
+  }
+  
+  .tagline::before {
+    content: ">";
+    margin-right: 0.5rem;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    border-bottom: 1px solid #00FF41;
+  }
+  
+  .social-links a {
+    color: #00FF41;
+    font-size: 1.2rem;
+    transition: text-shadow 0.3s;
+  }
+  
+  .social-links a:hover {
+    text-shadow: 0 0 10px #00FF41;
+  }
+  
+  .about-section {
+    color: #00FF41;
+    font-family: 'Courier New', monospace;
+    padding: 1rem 0;
+  }
+  
+  .about-section h2::before {
+    content: "# ";
+  }
+  
+  .link-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  
+  .link-card {
+    background: transparent;
+    border: 1px solid #00FF41;
+    color: #00FF41;
+    transition: all 0.3s;
+  }
+  
+  .link-card:hover {
+    background: rgba(0, 255, 65, 0.1);
+    transform: translateX(5px);
+  }
+  
+  .footer-link {
+    color: #00FF41;
+    opacity: 0.6;
+  }

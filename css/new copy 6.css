@@ -1,0 +1,167 @@
+/* Camera Person Theme */
+:root {
+    --primary-color: #1a1a1a;
+    --secondary-color: #f5f5f5;
+    --accent-color: #ff4d4d;
+    --card-bg: rgba(26, 26, 26, 0.95);
+    --link-card-bg: rgba(255, 255, 255, 0.05);
+  }
+  
+  body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('https://images.unsplash.com/photo-1520390138845-fd2d229dd553?auto=format&fit=crop&q=80') center/cover fixed;
+    color: var(--secondary-color);
+  }
+  
+  .bio-card {
+    background: var(--card-bg);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Profile Section Styling */
+  .profile-img {
+    width: 120px;
+    height: 120px;
+    border: 3px solid var(--accent-color);
+    box-shadow: 0 0 20px rgba(255, 77, 77, 0.3);
+  }
+  
+  .profile-section h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    color: var(--secondary-color);
+  }
+  
+  .tagline {
+    color: var(--accent-color);
+    font-style: italic;
+    font-size: 1rem;
+  }
+  
+  /* Social Links Styling */
+  .social-links {
+    margin: 1.5rem 0;
+  }
+  
+  .social-links a {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .social-links a:hover {
+    color: var(--accent-color);
+    transform: translateY(-3px);
+  }
+  
+  .social-links a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: var(--accent-color);
+    bottom: -5px;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .social-links a:hover::after {
+    transform: scaleX(1);
+  }
+  
+  /* About Section Styling */
+  .about-section {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+  }
+  
+  .about-section h2 {
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-section p {
+    line-height: 1.8;
+  }
+  
+  /* Link Cards Styling */
+  .link-card {
+    background: var(--link-card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--secondary-color);
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .link-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: var(--accent-color);
+    transform: scaleY(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .link-card:hover {
+    transform: translateX(5px);
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .link-card:hover::before {
+    transform: scaleY(1);
+  }
+  
+  .link-card i {
+    color: var(--accent-color);
+  }
+  
+  /* Footer Styling */
+  .footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .footer-link {
+    color: var(--secondary-color);
+    opacity: 0.7;
+    font-size: 0.9rem;
+  }
+  
+  .footer-link:hover {
+    color: var(--accent-color);
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 480px) {
+    .bio-card {
+      padding: 1.5rem;
+    }
+    
+    .profile-img {
+      width: 100px;
+      height: 100px;
+    }
+    
+    .profile-section h1 {
+      font-size: 1.75rem;
+    }
+    
+    .social-links a {
+      font-size: 1.1rem;
+    }
+  }

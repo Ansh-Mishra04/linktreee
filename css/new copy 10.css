@@ -1,0 +1,128 @@
+/* Botanical Theme - Fresh and natural */
+.bio-card {
+    background: #fff;
+    border: none;
+    box-shadow: 0 15px 35px rgba(73, 114, 89, 0.15);
+    position: relative;
+    overflow: hidden; /* Ensures the leaf image stays inside the card */
+  }
+  
+  .bio-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/css/images/leaf.avif');
+    background-size: cover;
+    background-position: center; /* Centers the leaf image */
+    opacity: 0.5;
+    z-index: 0; /* Ensures the image doesn't overlap the card content */
+  }
+  
+  .bio-card * {
+    position: relative;
+    z-index: 1; /* Brings card content above the background image */
+  }
+  
+  .profile-section {
+    position: relative;
+    padding: 2rem;
+    background: url('https://images.unsplash.com/photo-1502810217690-e524b23bf85c?auto=format&fit=crop&q=80');
+    background-size: cover;
+    background-position: center;
+    margin: -2rem -2rem 2rem;
+    padding-bottom: 3rem;
+  }
+  
+  .profile-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  .profile-img {
+    position: relative;
+    border: 4px solid #fff;
+    box-shadow: 0 5px 15px rgba(73, 114, 89, 0.2);
+  }
+  
+  .profile-section h1 {
+    position: relative;
+    color: #2d5a40;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  .tagline {
+    position: relative;
+    color: #557a65;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: -1.5rem 1rem 1.5rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(73, 114, 89, 0.1);
+    position: relative;
+  }
+  
+  .social-links a {
+    color: #2d5a40;
+    transition: all 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #557a65;
+    transform: scale(1.2);
+  }
+  
+  .about-section {
+    position: relative;
+    margin: 2rem;
+    padding: 1.5rem;
+    background: rgba(73, 114, 89, 0.05);
+    border-radius: 12px;
+  }
+  
+  .link-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+    padding: 0 2rem;
+  }
+  
+  .link-card {
+    background: #fff;
+    border: 1px solid rgba(73, 114, 89, 0.2);
+    color: #2d5a40;
+    border-radius: 8px;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .link-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background: url('https://images.unsplash.com/photo-1502810217690-e524b23bf85c?auto=format&fit=crop&q=80');
+    background-size: cover;
+    opacity: 0.1;
+  }
+  
+  .link-card:hover {
+    transform: translateX(5px);
+    border-color: #2d5a40;
+  }

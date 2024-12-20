@@ -1,0 +1,81 @@
+/* Neon Theme - Vibrant and glowing */
+.bio-card {
+    background: #0f0f0f;
+    border: 1px solid #ff00ff;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.3);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .profile-section {
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+  }
+  
+  .profile-img {
+    border: 3px solid #00ff00;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+  }
+  
+  .profile-section h1 {
+    color: #ff00ff;
+    font-family: 'Audiowide', cursive;
+    text-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
+    margin-top: 1rem;
+  }
+  
+  .tagline {
+    color: #00ffff;
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.8);
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem;
+    background: rgba(255, 0, 255, 0.1);
+  }
+  
+  .social-links a {
+    color: #00ff00;
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
+    transition: all 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #ff00ff;
+    text-shadow: 0 0 15px rgba(255, 0, 255, 0.8);
+    transform: scale(1.2);
+  }
+  
+  .about-section {
+    color: #00ffff;
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.8);
+    margin: 2rem 0;
+    padding: 1rem;
+    background: rgba(0, 255, 255, 0.1);
+    border-radius: 8px;
+  }
+  
+  .link-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .link-card {
+    background: transparent;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.8);
+    transition: all 0.3s;
+  }
+  
+  .link-card:hover {
+    background: rgba(0, 255, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    transform: translateX(5px);
+  }

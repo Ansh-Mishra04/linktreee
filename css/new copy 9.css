@@ -1,0 +1,115 @@
+/* Artistic Theme - Creative and expressive */
+.bio-card {
+    background: #fff;
+    border: none;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .bio-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+      linear-gradient(45deg, #ff6b6b 25%, transparent 25%) -50px 0,
+      linear-gradient(-45deg, #ff6b6b 25%, transparent 25%) -50px 0,
+      linear-gradient(45deg, transparent 75%, #ff6b6b 75%),
+      linear-gradient(-45deg, transparent 75%, #ff6b6b 75%);
+    background-size: 100px 100px;
+    opacity: 0.1;
+  }
+  
+  .profile-section {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .profile-img {
+    grid-column: 2;
+    border: none;
+    clip-path: circle(40% at center);
+    transition: clip-path 0.3s;
+  }
+  
+  .profile-img:hover {
+    clip-path: circle(42% at center);
+  }
+  
+  .profile-section h1 {
+    grid-column: 1;
+    grid-row: 1;
+    font-family: 'Abril Fatface', cursive;
+    color: #2d3436;
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  
+  .tagline {
+    grid-column: 1;
+    grid-row: 2;
+    font-family: 'Montserrat', sans-serif;
+    color: #636e72;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+    background: #f9f9f9;
+  }
+  
+  .social-links a {
+    color: #2d3436;
+    font-size: 1.3rem;
+    transition: all 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #ff6b6b;
+    transform: translateY(-3px);
+  }
+  
+  .about-section {
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+  }
+  
+  .link-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0 2rem 2rem;
+  }
+  
+  .link-card {
+    background: #f9f9f9;
+    border: none;
+    color: #2d3436;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .link-card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #ff6b6b;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+  }
+  
+  .link-card:hover::after {
+    transform: scaleX(1);
+  }
